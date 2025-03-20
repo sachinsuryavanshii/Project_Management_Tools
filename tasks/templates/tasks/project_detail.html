@@ -1,0 +1,19 @@
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static '/css/detail.css'%}">
+</head>
+<body>
+             <h1>{{ project.name }}</h1>
+            <p>{{ project.description }}</p>
+            <p>Status: {{ project.status }}</p>
+            <h2>Tasks</h2>
+        <ul>
+            {% for task in tasks %}
+            <li>{{ task.name }} - {{ task.status }} (Assigned to: {{ task.assigned_to }})</li>
+            {% endfor %}
+        </ul>
+        <a href="{% url 'task_create' project.id %}">Add Task</a>
+         
+</body>
+</html>

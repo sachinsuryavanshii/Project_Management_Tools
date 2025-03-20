@@ -1,0 +1,16 @@
+body {
+    border: solid rgb(50, 43, 43) 2px;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-top: 30px;
+    background-color: rgb(255, 251, 244);
+}
+
+h1 {
+    color: rgb(84, 49, 117);
+}
+
+button {
+    font-size: 20px;
+}
