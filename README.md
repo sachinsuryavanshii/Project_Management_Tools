@@ -9,6 +9,6 @@ The Project Management Tool is a web-based application designed to help teams ef
 - Reports & Analytics
 
 * Tech Stack
-Backend: Django (Python framework)
-Frontend: HTML, CSS, JavaScript, jQuery
-Database: SQLite or PostgreSQL
+- Backend: Django (Python framework)
+- Frontend: HTML, CSS, JavaScript, jQuery
+- Database: SQLite or PostgreSQL
